@@ -432,7 +432,7 @@ function App() {
       </main>
 
       <footer className="site-footer">
-        <a className="footer-brand" href="#home" aria-label="Back to home">S<span>.</span></a>
+        <a className="footer-brand" href="#home" aria-label="Back to home">S<span>M.</span></a>
         <span>DESIGNED & BUILT WITH CURIOSITY · © {new Date().getFullYear()} SHESHUMADHAVA PITTALA</span>
         <nav className="footer-text-links" aria-label="Footer links">
           <a href={githubProfile} target="_blank" rel="noreferrer">GitHub ↗</a>
