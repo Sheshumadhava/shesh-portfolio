@@ -1,3 +1,5 @@
+
+import { Analytics } from '@vercel/analytics/react'
 import React, { useEffect, useState } from 'react'
 import {
   ArrowDownRight,
@@ -441,6 +443,7 @@ function App() {
           <a href="#home">Top ↑</a>
         </nav>
       </footer>
+      <Analytics />
     </div>
   )
 }
